@@ -1,0 +1,38 @@
+{
+    "schemaVersion": 1,
+    "id": "mooses",
+    "version": "${version}",
+
+    "name": "Moose Mod",
+    "description": "A Fabric mod for Legitimoose",
+    "authors": [
+        "Minecraft: Puffel_",
+        "Github: ChezCoder",
+        "Discord: Fwuffy#5459"
+    ],
+    "contact": {
+        "homepage": "",
+        "sources": "https://github.com/ChezCoder/moose-mod-fabric"
+    },
+
+    "license": "MIT",
+    "icon": "assets/moosemod/icon.png",
+
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "puffel_.moose.mod.MooseMod"
+        ]
+    },
+    "mixins": [
+        "moosemod.mixins.json"
+    ],
+
+    "depends": {
+        "fabricloader": ">=0.7.4",
+        "fabric": "*",
+        "minecraft": "1.16.x"
+    },
+    "suggests": {
+    }
+}
