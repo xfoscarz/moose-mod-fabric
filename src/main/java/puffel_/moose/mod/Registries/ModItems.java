@@ -27,6 +27,9 @@ public class ModItems {
 
     // Armor
     public static final Item MOOSE_HEAD = new ArmorItem(MooseArmor.INSTANCE, EquipmentSlot.HEAD, new Item.Settings().maxCount(1).fireproof());
+    public static final Item MOOSE_CHESTPLATE = new ArmorItem(MooseArmor.INSTANCE, EquipmentSlot.CHEST, new Item.Settings().maxCount(1).fireproof());
+    public static final Item MOOSE_LEGGINGS = new ArmorItem(MooseArmor.INSTANCE, EquipmentSlot.LEGS, new Item.Settings().maxCount(1).fireproof());
+    public static final Item MOOSE_BOOTS = new ArmorItem(MooseArmor.INSTANCE, EquipmentSlot.FEET, new Item.Settings().maxCount(1).fireproof());
 
     public static void register() {
         // Items
@@ -45,5 +48,8 @@ public class ModItems {
 
         // Armor
         Registry.register(Registry.ITEM, new Identifier(MooseMod.MOD_ID, "moose_head"), MOOSE_HEAD);
+        Registry.register(Registry.ITEM, new Identifier(MooseMod.MOD_ID, "moose_chestplate"), MOOSE_CHESTPLATE);
+        Registry.register(Registry.ITEM, new Identifier(MooseMod.MOD_ID, "moose_leggings"), MOOSE_LEGGINGS);
+        Registry.register(Registry.ITEM, new Identifier(MooseMod.MOD_ID, "moose_boots"), MOOSE_BOOTS);
     }
 }

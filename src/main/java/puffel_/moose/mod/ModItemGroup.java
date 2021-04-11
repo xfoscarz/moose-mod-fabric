@@ -31,6 +31,9 @@ public class ModItemGroup {
 
             // Armor
             stack.add(new ItemStack(ModItems.MOOSE_HEAD));
+            stack.add(new ItemStack(ModItems.MOOSE_CHESTPLATE));
+            stack.add(new ItemStack(ModItems.MOOSE_LEGGINGS));
+            stack.add(new ItemStack(ModItems.MOOSE_BOOTS));
         })
         .build();
 }

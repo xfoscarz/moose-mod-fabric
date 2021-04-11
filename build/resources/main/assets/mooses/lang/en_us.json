@@ -5,6 +5,10 @@
     "item.moose_mod.moose_shovel": "Moose Shovel",
     "item.moose_mod.moose_hoe": "Moose Hoe",
 
+    "item.moose_mod.moose_head": "Moose Head",
+
     "block.moose_mod.moose_block": "Block of Moose Essence",
-    "block.moose_mod.moose_ore": "Moose Ore"
+    "block.moose_mod.moose_ore": "Moose Ore",
+
+    "itemGroup.moose_mod.general": "Moose Mod"
 }

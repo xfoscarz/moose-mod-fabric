@@ -1,15 +1,17 @@
-puffel_/moose/mod/CustomPickaxeItem.java
- puffel_.moose.mod.CustomPickaxeItem
 puffel_/moose/mod/Item/MooseSword.java
  puffel_.moose.mod.Item.MooseSword
-puffel_/moose/mod/CustomHoeItem.java
- puffel_.moose.mod.CustomHoeItem
+puffel_/moose/mod/ModItemGroup.java
+ puffel_.moose.mod.ModItemGroup
 puffel_/moose/mod/Enchant/Antlers.java
  puffel_.moose.mod.Enchant.Antlers
-puffel_/moose/mod/CustomAxeItem.java
- puffel_.moose.mod.CustomAxeItem
+puffel_/moose/mod/Item/CustomPickaxeItem.java
+ puffel_.moose.mod.Item.CustomPickaxeItem
+puffel_/moose/mod/Item/CustomHoeItem.java
+ puffel_.moose.mod.Item.CustomHoeItem
 puffel_/moose/mod/Registries/ModItems.java
  puffel_.moose.mod.Registries.ModItems
+puffel_/moose/mod/Item/CustomAxeItem.java
+ puffel_.moose.mod.Item.CustomAxeItem
 puffel_/moose/mod/Enchant/GrassWalker.java
  puffel_.moose.mod.Enchant.GrassWalker
 puffel_/moose/mod/Registries/ModBlocks.java
@@ -24,6 +26,8 @@ puffel_/moose/mod/Block/MooseBlock.java
  puffel_.moose.mod.Block.MooseBlock
 puffel_/moose/mod/MooseMod.java
  puffel_.moose.mod.MooseMod
+puffel_/moose/mod/Item/MooseArmor.java
+ puffel_.moose.mod.Item.MooseArmor
 puffel_/moose/mod/Item/MooseHoe.java
  puffel_.moose.mod.Item.MooseHoe
 puffel_/moose/mod/Item/MooseShovel.java
