@@ -22,6 +22,10 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 - Moose Doors
 - Moose Trapdoors
 - Moose Fences
+- Moose Grass
+- Moose Dirt
+- Moose Stone
+- Magical Moose Liquid
 
 ## Tools
 - Moose Pickaxe
@@ -35,6 +39,11 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 - Moose Chestplate
 - Moose Leggings
 - Moose boots
+
+## Food
+- Moose'd Apple
+- Moose Grass
+- Moose'd Potion
 
 ## Enchantments
 - Grass Walker
