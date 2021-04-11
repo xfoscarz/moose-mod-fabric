@@ -45,11 +45,11 @@ public class MooseArmor implements ArmorMaterial {
 
     @Override
     public float getToughness() {
-        return 3.0F;
+        return 5.0F;
     }
 
     @Override
     public float getKnockbackResistance() {
-        return 0.0F;
+        return 2.0F;
     }
 }

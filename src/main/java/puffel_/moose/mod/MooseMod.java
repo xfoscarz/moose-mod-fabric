@@ -1,26 +1,66 @@
 package puffel_.moose.mod;
 
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.util.Identifier;
 import puffel_.moose.mod.Registries.ModBlocks;
 import puffel_.moose.mod.Registries.ModItems;
 
-// t
 public class MooseMod implements ModInitializer {
     public static final String MOD_ID = "mooses";
-    public static final String VERSION = "PRE-Snapshot 21w14a";
+    public static final String VERSION = "PRE-Snapshot 21w15a";
 
     @Override
     public void onInitialize() {
+        System.out.println("\n  __  __                        __  __           _ \n" +
+                " |  \\/  | ___   ___  ___  ___  |  \\/  | ___   __| |\n" +
+                " | |\\/| |/ _ \\ / _ \\/ __|/ _ \\ | |\\/| |/ _ \\ / _` |\n" +
+                " | |  | | (_) | (_) \\__ \\  __/ | |  | | (_) | (_| |\n" +
+                " |_|  |_|\\___/ \\___/|___/\\___| |_|  |_|\\___/ \\__,_|\n" +
+                "                                                   ");
+
         System.out.println("\n----------------------------------------\nMoosesMod " + VERSION + "\nCoded By: Puffel_\nTested By: nf2m\n----------------------------------------");
 
         // Registration
         ModBlocks.register();
         ModItems.register();
 
+
         // Events
         PlayerBlockBreakEvents.AFTER.register((world, player, pos, state, blockEntity) -> {
         });
+
     }
+
+    // CustomItemGroup
+    public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder
+        .create(new Identifier(MOD_ID, "general"))
+        .icon(() -> new ItemStack(ModBlocks.MOOSE_BLOCK))
+        .appendItems(stack -> {
+            // Items
+            stack.add(new ItemStack(ModItems.MOOSE_ESSENCE));
+            stack.add(new ItemStack(ModItems.MOOSE_INGOT));
+
+            // Blocks
+            stack.add(new ItemStack(ModItems.MOOSE_BLOCK));
+            stack.add(new ItemStack(ModItems.MOOSE_ORE));
+
+            // Tools
+            stack.add(new ItemStack(ModItems.MOOSE_SWORD));
+            stack.add(new ItemStack(ModItems.MOOSE_PICKAXE));
+            stack.add(new ItemStack(ModItems.MOOSE_AXE));
+            stack.add(new ItemStack(ModItems.MOOSE_SHOVEL));
+            stack.add(new ItemStack(ModItems.MOOSE_HOE));
+
+            // Armor
+            stack.add(new ItemStack(ModItems.MOOSE_HEAD));
+            stack.add(new ItemStack(ModItems.MOOSE_CHESTPLATE));
+            stack.add(new ItemStack(ModItems.MOOSE_LEGGINGS));
+            stack.add(new ItemStack(ModItems.MOOSE_BOOTS));
+        })
+        .build();
 }
 
