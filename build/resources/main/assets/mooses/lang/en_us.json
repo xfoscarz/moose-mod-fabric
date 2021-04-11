@@ -1,17 +1,17 @@
 {
-    "item.moose_mod.moose_sword": "Moose Sword",
-    "item.moose_mod.moose_pickaxe": "Moose Pickaxe",
-    "item.moose_mod.moose_axe": "Moose Axe",
-    "item.moose_mod.moose_shovel": "Moose Shovel",
-    "item.moose_mod.moose_hoe": "Moose Hoe",
+    "item.mooses.moose_sword": "Moose Sword",
+    "item.mooses.moose_pickaxe": "Moose Pickaxe",
+    "item.mooses.moose_axe": "Moose Axe",
+    "item.mooses.moose_shovel": "Moose Shovel",
+    "item.mooses.moose_hoe": "Moose Hoe",
 
-    "item.moose_mod.moose_head": "Moose Head",
-    "item.moose_mod.moose_chestplate": "Moose Shirt",
-    "item.moose_mod.moose_leggings": "Moose Pants",
-    "item.moose_mod.moose_boots": "Moose Feet",
+    "item.mooses.moose_head": "Moose Head",
+    "item.mooses.moose_chestplate": "Moose Shirt",
+    "item.mooses.moose_leggings": "Moose Pants",
+    "item.mooses.moose_boots": "Moose Feet",
 
-    "block.moose_mod.moose_block": "Block of Moose Essence",
-    "block.moose_mod.moose_ore": "Moose Ore",
+    "block.mooses.moose_block": "Block of Moose Essence",
+    "block.mooses.moose_ore": "Moose Ore",
 
-    "itemGroup.moose_mod.general": "Moose Mod"
+    "itemGroup.mooses.general": "Moose Mod"
 }

@@ -1,7 +1,5 @@
 puffel_/moose/mod/Item/MooseSword.java
  puffel_.moose.mod.Item.MooseSword
-puffel_/moose/mod/ModItemGroup.java
- puffel_.moose.mod.ModItemGroup
 puffel_/moose/mod/Enchant/Antlers.java
  puffel_.moose.mod.Enchant.Antlers
 puffel_/moose/mod/Item/CustomPickaxeItem.java
