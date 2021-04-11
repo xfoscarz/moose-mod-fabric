@@ -3,6 +3,7 @@ package puffel_.moose.mod.Item;
 
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
+import puffel_.moose.mod.Registries.ModItems;
 
 public class MooseSword implements ToolMaterial {
     public static final MooseSword INSTANCE = new MooseSword();
@@ -34,7 +35,6 @@ public class MooseSword implements ToolMaterial {
 
     @Override
     public Ingredient getRepairIngredient() {
-        // TODO change repair ingredient to moose ingots
-        return null;
+        return Ingredient.ofItems(ModItems.MOOSE_ESSENCE);
     }
 }
