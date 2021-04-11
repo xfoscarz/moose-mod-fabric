@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import puffel_.moose.mod.Registries.ModBlocks;
 import puffel_.moose.mod.Registries.ModItems;
 
+// t
 public class MooseMod implements ModInitializer {
     public static final String MOD_ID = "mooses";
     public static final String VERSION = "PRE-Snapshot 21w14a";
