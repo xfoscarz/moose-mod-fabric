@@ -1,5 +1,11 @@
-![Release](https://img.shields.io/github/v/release/ChezCoder/moose-mod-fabric?color=yellow&include_prereleases)
 ![Build](https://img.shields.io/github/workflow/status/ChezCoder/moose-mod-fabric/Java%20CI%20with%20Gradle)
+![Release](https://img.shields.io/github/v/release/ChezCoder/moose-mod-fabric?color=yellow&include_prereleases)
+![Total Downloads](https://img.shields.io/github/downloads/chezcoder/moose-mod-fabric/total)
+![LICENSE](https://img.shields.io/github/license/ChezCoder/moose-mod-fabric)
+
+![Stars](https://img.shields.io/github/stars/ChezCoder/moose-mod-fabric?label=Stars&style=social)
+![Forks](https://img.shields.io/github/forks/ChezCoder/moose-mod-fabric?style=social)
+![Watchers](https://img.shields.io/github/watchers/ChezCoder/moose-mod-fabric?style=social)
 
 # Moose Mod
 ###### Version: SNAPSHOT 21w15a
