@@ -1,4 +1,5 @@
-![Build Status](https://travis-ci.com/ChezCoder/moose-mod-fabric.svg?branch=master)
+![Release](https://img.shields.io/github/v/release/ChezCoder/moose-mod-fabric?color=yellow&include_prereleases)
+![Build](https://img.shields.io/github/workflow/status/ChezCoder/moose-mod-fabric/Java%20CI%20with%20Gradle)
 
 # Moose Mod
 ###### Version: SNAPSHOT 21w15a
