@@ -5,6 +5,8 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 # Installation
 **This is a Fabric Mod, this won't work in forge**
 
+[Releases](https://github.com/ChezCoder/moose-mod-fabric/releases)
+
 [Adding Fabric Mods](https://fabricmc.net/wiki/tutorial:adding_mods)
 
 # Features
