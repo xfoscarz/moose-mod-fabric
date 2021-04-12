@@ -2,6 +2,10 @@
 ![Release](https://img.shields.io/github/v/release/ChezCoder/moose-mod-fabric?color=yellow&include_prereleases)
 ![Total Downloads](https://img.shields.io/github/downloads/chezcoder/moose-mod-fabric/total)
 ![LICENSE](https://img.shields.io/github/license/ChezCoder/moose-mod-fabric)
+![Top Language](https://img.shields.io/github/languages/top/ChezCoder/moose-mod-fabric)
+
+![Issues Opened](https://img.shields.io/github/issues-raw/ChezCoder/moose-mod-fabric)
+![Issues Closed](https://img.shields.io/github/issues-closed-raw/ChezCoder/moose-mod-fabric)
 
 ![Stars](https://img.shields.io/github/stars/ChezCoder/moose-mod-fabric?label=Stars&style=social)
 ![Forks](https://img.shields.io/github/forks/ChezCoder/moose-mod-fabric?style=social)
