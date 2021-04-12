@@ -1,4 +1,3 @@
 language: java
 install: ./gradlew assemble
-script:
-  - ./gradlew build
+script: ./gradlew build
