@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "mooses:moose_block"
+        }
+    ],
+    "result": {
+        "item": "mooses:moose_ingot",
+        "count": 9
+    }
+}
