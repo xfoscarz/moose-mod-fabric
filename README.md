@@ -1,3 +1,5 @@
+![Build Status](https://travis-ci.com/ChezCoder/moose-mod-fabric.svg?branch=master)
+
 # Moose Mod
 ###### Version: SNAPSHOT 21w15a
 A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
