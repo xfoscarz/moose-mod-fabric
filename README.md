@@ -1,4 +1,4 @@
-![Build](https://img.shields.io/github/workflow/status/ChezCoder/moose-mod-fabric/Java%20CI%20with%20Gradle)
+![Build](https://img.shields.io/github/workflow/status/ChezCoder/moose-mod-fabric/gradle_build)
 ![Total Downloads](https://img.shields.io/github/downloads/chezcoder/moose-mod-fabric/total)
 ![LICENSE](https://img.shields.io/github/license/ChezCoder/moose-mod-fabric)
 ![Top Language](https://img.shields.io/github/languages/top/ChezCoder/moose-mod-fabric)
