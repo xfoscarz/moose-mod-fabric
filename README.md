@@ -12,6 +12,7 @@
 
 # Moose Mod
 ![(Pre)release](https://img.shields.io/github/v/release/ChezCoder/moose-mod-fabric?color=gray&include_prereleases&label=%20Version%3A%20&style=flat-square)
+
 A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 
 # Installation
