@@ -15,7 +15,7 @@
 
 A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 
-<b><span style="text-decoration: underline;">PRERELEASE</span></b>
+**We are still in *PRE-RELEASE*.**
 
 # Installation
 **This is a Fabric Mod, this won't work in forge**
