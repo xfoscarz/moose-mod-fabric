@@ -15,6 +15,8 @@
 
 A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 
+<b><span style="text-decoration: underline;">PRERELEASE</span></b>
+
 # Installation
 **This is a Fabric Mod, this won't work in forge**
 
@@ -25,6 +27,7 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 # Features
 ## Mobs
 - Moose
+- Bear (to be decided)
 
 ## Blocks
 - Moose Ore
@@ -41,6 +44,7 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 - Moose Dirt
 - Moose Stone
 - Magical Moose Liquid
+- Magical Moose Lava
 
 ## Tools
 - Moose Pickaxe
@@ -50,22 +54,27 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 - Moose Hoe
 
 ## Armor
-- Moose Helmet
-- Moose Chestplate
-- Moose Leggings
-- Moose boots
+- Moose Head
+- Moose Shirt
+- Moose Pants
+- Moose Feet
 
 ## Food
 - Moose'd Apple
-- Moose Grass
-- Moose'd Potion
+- Enchanted Moose'd Apple
+- Moose Seeds
+- Moose Bread
+
+## Potions
+- Floppy Moose Potion
+- Stiff Moose Potion
 
 ## Enchantments
 - Grass Walker
 - Antlers
 
 ## Biomes
-- Moose Biome
+- Legitiland (Moose Biome)
 
 # Contact & Support
 Found a bug or just want to request a feature? Check out the [Issues](https://github.com/ChezCoder/moose-mod-fabric/issues) page.
