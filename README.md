@@ -20,9 +20,7 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 # Installation
 **This is a Fabric Mod, this won't work in forge**
 
-[Releases](https://img.shields.io/github/v/release/ChezCoder/moose-mod-fabric?color=gray&include_prereleases&label=%20Version%3A%20&style=flat-square)
-
-[Adding Fabric Mods](https://fabricmc.net/wiki/tutorial:adding_mods)
+[Releases](https://github.com/ChezCoder/moose-mod-fabric/releases) • [Adding Fabric Mods](https://fabricmc.net/wiki/tutorial:adding_mods)
 
 # Features
 ## Mobs
