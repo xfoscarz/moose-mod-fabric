@@ -22,6 +22,8 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 
 [Releases](https://github.com/ChezCoder/moose-mod-fabric/releases) • [Adding Fabric Mods](https://fabricmc.net/wiki/tutorial:adding_mods)
 
+_If you would like to help test our latest commits, you can download and `./gradlew build` this project._
+
 # Features
 ## Mobs
 - Moose
