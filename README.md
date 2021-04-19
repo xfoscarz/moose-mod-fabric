@@ -1,5 +1,4 @@
-![Build](https://img.shields.io/github/workflow/status/ChezCoder/moose-mod-fabric/Java%20CI%20with%20Gradle)
-![Release](https://img.shields.io/github/v/release/ChezCoder/moose-mod-fabric?color=yellow&include_prereleases)
+![Build](https://img.shields.io/github/workflow/status/ChezCoder/moose-mod-fabric/gradle_build)
 ![Total Downloads](https://img.shields.io/github/downloads/chezcoder/moose-mod-fabric/total)
 ![LICENSE](https://img.shields.io/github/license/ChezCoder/moose-mod-fabric)
 ![Top Language](https://img.shields.io/github/languages/top/ChezCoder/moose-mod-fabric)
@@ -12,19 +11,23 @@
 ![Watchers](https://img.shields.io/github/watchers/ChezCoder/moose-mod-fabric?style=social)
 
 # Moose Mod
-###### Version: SNAPSHOT 21w15a
+<a href="https://github.com/ChezCoder/moose-mod-fabric/releases">![(Pre)release](https://img.shields.io/github/v/release/ChezCoder/moose-mod-fabric?color=gray&include_prereleases&label=%20Version%3A%20&style=flat-square)</a>
+
 A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
+
+**We are still in *PRE-RELEASE*.**
 
 # Installation
 **This is a Fabric Mod, this won't work in forge**
 
-[Releases](https://github.com/ChezCoder/moose-mod-fabric/releases)
+[Releases](https://github.com/ChezCoder/moose-mod-fabric/releases) • [Adding Fabric Mods](https://fabricmc.net/wiki/tutorial:adding_mods)
 
-[Adding Fabric Mods](https://fabricmc.net/wiki/tutorial:adding_mods)
+_If you would like to help test our latest commits, you can download and `./gradlew build` this project._
 
 # Features
 ## Mobs
 - Moose
+- Bear (to be decided)
 
 ## Blocks
 - Moose Ore
@@ -41,6 +44,7 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 - Moose Dirt
 - Moose Stone
 - Magical Moose Liquid
+- Magical Moose Lava
 
 ## Tools
 - Moose Pickaxe
@@ -50,22 +54,27 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 - Moose Hoe
 
 ## Armor
-- Moose Helmet
-- Moose Chestplate
-- Moose Leggings
-- Moose boots
+- Moose Head
+- Moose Shirt
+- Moose Pants
+- Moose Feet
 
 ## Food
 - Moose'd Apple
-- Moose Grass
-- Moose'd Potion
+- Enchanted Moose'd Apple
+- Moose Seeds
+- Moose Bread
+
+## Potions
+- Floppy Moose Potion
+- Stiff Moose Potion
 
 ## Enchantments
 - Grass Walker
 - Antlers
 
 ## Biomes
-- Moose Biome
+- Legitiland (Moose Biome)
 
 # Contact & Support
 Found a bug or just want to request a feature? Check out the [Issues](https://github.com/ChezCoder/moose-mod-fabric/issues) page.
