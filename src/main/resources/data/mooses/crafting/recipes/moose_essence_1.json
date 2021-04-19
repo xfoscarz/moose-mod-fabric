@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "mooses:moose_ore"
+    },
+    "result": "mooses:moose_essence",
+    "experience": 2,
+    "cookingtime": 100
+}

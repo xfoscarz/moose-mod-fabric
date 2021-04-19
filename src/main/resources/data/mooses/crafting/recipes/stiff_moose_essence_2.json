@@ -4,6 +4,6 @@
         "item": "mooses:moose_essence"
     },
     "result": "mooses:stiff_moose_essence",
-    "experience": 0.1,
-    "cookingtime": 20
+    "experience": 5,
+    "cookingtime": 50
 }

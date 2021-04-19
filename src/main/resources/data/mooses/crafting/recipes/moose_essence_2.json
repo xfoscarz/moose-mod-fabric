@@ -1,9 +1,9 @@
 {
-    "type": "minecraft:smelting",
+    "type": "minecraft:blasting",
     "ingredient": {
         "item": "mooses:moose_ore"
     },
     "result": "mooses:moose_essence",
     "experience": 2,
-    "cookingtime": 200
+    "cookingtime": 100
 }

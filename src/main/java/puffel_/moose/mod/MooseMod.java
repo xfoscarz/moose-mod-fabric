@@ -10,29 +10,34 @@ import puffel_.moose.mod.Registries.ModBlocks;
 import puffel_.moose.mod.Registries.ModItems;
 
 public class MooseMod implements ModInitializer {
+    public static final String[] DEVELOPERS = {
+            "cinzfurz",
+            "nf2m",
+            "Puffel_",
+            "JustSticky"
+    };
     public static final String MOD_ID = "mooses";
     public static final String VERSION = "PRE-Snapshot 21w15a";
 
     @Override
     public void onInitialize() {
-        System.out.println("\n  __  __                        __  __           _ \n" +
+        System.out.println("\n\033[34m" +
+                "  __  __                        __  __           _ \n" +
                 " |  \\/  | ___   ___  ___  ___  |  \\/  | ___   __| |\n" +
                 " | |\\/| |/ _ \\ / _ \\/ __|/ _ \\ | |\\/| |/ _ \\ / _` |\n" +
                 " | |  | | (_) | (_) \\__ \\  __/ | |  | | (_) | (_| |\n" +
                 " |_|  |_|\\___/ \\___/|___/\\___| |_|  |_|\\___/ \\__,_|\n" +
                 "                                                   ");
 
-        System.out.println("\n----------------------------------------\nMoosesMod " + VERSION + "\nCoded By: Puffel_\nTested By: nf2m\n----------------------------------------");
+        System.out.println("\n\033[0m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n\033[31mMoosesMod \033[33m" + VERSION + "\n\033[0mThe collaborative efforts of\n\033[32m" + String.join(", ", DEVELOPERS) + "\n\033[0m-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
 
         // Registration
         ModBlocks.register();
         ModItems.register();
 
-
         // Events
         PlayerBlockBreakEvents.AFTER.register((world, player, pos, state, blockEntity) -> {
         });
-
     }
 
     // CustomItemGroup
@@ -45,6 +50,11 @@ public class MooseMod implements ModInitializer {
             stack.add(new ItemStack(ModItems.MOOSE_INGOT));
 
             // Blocks
+            stack.add(new ItemStack(ModItems.MOOSE_GRASS));
+            stack.add(new ItemStack(ModItems.MOOSE_DIRT));
+            stack.add(new ItemStack(ModItems.MOOSE_STONE));
+            stack.add(new ItemStack(ModItems.MOOSE_LOG));
+            stack.add(new ItemStack(ModItems.MOOSE_PLANK));
             stack.add(new ItemStack(ModItems.MOOSE_BLOCK));
             stack.add(new ItemStack(ModItems.MOOSE_ORE));
 

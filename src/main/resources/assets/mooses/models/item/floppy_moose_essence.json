@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "mooses:item/floppy_moose_essence"
+    }
+}

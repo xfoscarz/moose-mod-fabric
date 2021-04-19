@@ -5,13 +5,24 @@
     "item.mooses.moose_shovel": "Moose Shovel",
     "item.mooses.moose_hoe": "Moose Hoe",
 
-    "item.mooses.moose_head": "Moose Head",
+    "item.mooses.moose_helmet": "Moose Head",
     "item.mooses.moose_chestplate": "Moose Shirt",
     "item.mooses.moose_leggings": "Moose Pants",
     "item.mooses.moose_boots": "Moose Feet",
 
+    "item.mooses.moose_ingot": "Moose Ingot",
+    "item.mooses.moose_essence": "Moose Essence",
+    "item.mooses.raw_moose_essence": "Raw Moose Essence",
+    "item.mooses.floppy_moose_essence": "Floppy Moose Essence",
+    "item.mooses.stiff_moose_essence": "Stiff Moose Essence",
+
     "block.mooses.moose_block": "Block of Moose Essence",
     "block.mooses.moose_ore": "Moose Ore",
+    "block.mooses.moose_grass": "Moose Grass",
+    "block.mooses.moose_dirt": "Moose Dirt",
+    "block.mooses.moose_log": "Moose Log",
+    "block.mooses.moose_plank": "Moose Plank",
+    "block.mooses.moose_stone": "Moose Stone",
 
     "itemGroup.mooses.general": "Moose Mod"
 }
