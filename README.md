@@ -11,7 +11,9 @@
 ![Watchers](https://img.shields.io/github/watchers/ChezCoder/moose-mod-fabric?style=social)
 
 # Moose Mod
-<a href="https://github.com/ChezCoder/moose-mod-fabric/releases">![(Pre)release](https://img.shields.io/github/v/release/ChezCoder/moose-mod-fabric?color=gray&include_prereleases&label=%20Version%3A%20&style=flat-square)</a>
+<a href="https://github.com/ChezCoder/moose-mod-fabric/releases">
+  <img src="https://img.shields.io/github/v/release/ChezCoder/moose-mod-fabric?color=gray&include_prereleases&label=%20Version%3A%20&style=flat-square" alt="Go to (Pre)release">
+</a>
 
 A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 
@@ -22,59 +24,86 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 
 [Releases](https://github.com/ChezCoder/moose-mod-fabric/releases) • [Project Progress](https://github.com/ChezCoder/moose-mod-fabric/projects) • [Adding Fabric Mods](https://fabricmc.net/wiki/tutorial:adding_mods)
 
-_If you would like to help test our latest commits, you can download and `./gradlew build` this project._
+<details>
 
-# Features
-## Mobs
-- Moose
-- Bear (to be decided)
+<summary><h1 style="display: inline;">Features</h1></summary>
 
-## Blocks
-- Moose Ore
-- Moose Block
-- Moose Wood
-- Moose Logs
-- Moose Planks
-- Moose Slabs
-- Moose Stairs
-- Moose Doors
-- Moose Trapdoors
-- Moose Fences
-- Moose Grass
-- Moose Dirt
-- Moose Stone
-- Magical Moose Liquid
-- Magical Moose Lava
+<details>
+    <summary><h2 style="display: inline;">Mobs</h2></summary>
+    <li>Moose</li>
+    <li>Bear (to be decided)</li>
+</details>
+<br>
+<details>
+    <summary><h2 style="display: inline;">Blocks</h2></summary>
+    <li>Moose Ore</li>
+    <li>Moose Block</li>
+    <li>Moose Wood</li>
+    <li>Moose Logs</li>
+    <li>Moose Planks</li>
+    <li>Moose Slabs</li>
+    <li>Moose Stairs</li>
+    <li>Moose Doors</li>
+    <li>Moose Trapdoors</li>
+    <li>Moose Fences</li>
+    <li>Moose Grass</li>
+    <li>Moose Dirt</li>
+    <li>Moose Stone</li>
+    <li>Magical Moose Liquid</li>
+    <li>Magical Moose Lava</li>
+</details>
+<br>
+<details>
+    <summary><h2 style="display: inline;">Tools</h2></summary>
+    <li>Moose Pickaxe</li>
+    <li>Moose Axe</li>
+    <li>Moose Shovel</li>
+    <li>Moose Sword</li>
+    <li>Moose Hoe</li>
+</details>
+<br>
+<details>
+    <summary><h2 style="display: inline;">Armor</h2></summary>
+    <li>Moose Head</li>
+    <li>Moose Shirt</li>
+    <li>Moose Pants</li>
+    <li>Moose Feet</li>
+</details>
+<br>
+<details>
+    <summary><h2 style="display: inline;">Food</h2></summary>
+    <li>Moose'd Apple</li>
+    <li>Enchanted Moose'd Apple</li>
+    <li>Moose Seeds</li>
+    <li>Moose Bread</li>
+</details>
+<br>
+<details>
+    <summary><h2 style="display: inline;">Potions</h2></summary>
+    <li>Floppy Moose Potion</li>
+    <li>Stiff Moose Potion</li>
+</details>
+<br>
+<details>
+    <summary><h2 style="display: inline;">Enchantments</h2></summary>
+    <li>Grass Walker</li>
+    <li>Antlers</li>
+</details>
+<br>
+<details>
+    <summary><h2 style="display: inline;">Biomes</h2></summary>
+    <li>Moose Biome (to be named)</li>
+</details>
 
-## Tools
-- Moose Pickaxe
-- Moose Axe
-- Moose Shovel
-- Moose Sword
-- Moose Hoe
+</details>
 
-## Armor
-- Moose Head
-- Moose Shirt
-- Moose Pants
-- Moose Feet
-
-## Food
-- Moose'd Apple
-- Enchanted Moose'd Apple
-- Moose Seeds
-- Moose Bread
-
-## Potions
-- Floppy Moose Potion
-- Stiff Moose Potion
-
-## Enchantments
-- Grass Walker
-- Antlers
-
-## Biomes
-- Legitiland (Moose Biome)
+# Help Us Out
+```bash
+$ git init moose-mod-master
+$ cd moose-mod-master
+$ git clone https://github.com/ChezCoder/moose-mod-fabric
+$ ./gradlew runClient
+```
 
 # Contact & Support
 Found a bug or just want to request a feature? Check out the [Issues](https://github.com/ChezCoder/moose-mod-fabric/issues) page.
