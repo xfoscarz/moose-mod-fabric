@@ -23,10 +23,14 @@ public class ModBlocks {
     public static final MoosePlanks MOOSE_PLANK = new MoosePlanks(FabricBlockSettings.of(Material.WOOD).breakByTool(FabricToolTags.AXES).strength(2.5f, 5).sounds(BlockSoundGroup.WOOD).luminance(2));
 
     public static void register() {
+        // Register
+        
+        // Underground
         Registry.register(Registry.BLOCK, new Identifier(MooseMod.MOD_ID, "moose_ore"), MOOSE_ORE);
         Registry.register(Registry.BLOCK, new Identifier(MooseMod.MOD_ID, "moose_block"), MOOSE_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(MooseMod.MOD_ID, "moose_stone"), MOOSE_STONE);
-
+        
+        // Aboveground
         Registry.register(Registry.BLOCK, new Identifier(MooseMod.MOD_ID, "moose_grass"), MOOSE_GRASS);
         Registry.register(Registry.BLOCK, new Identifier(MooseMod.MOD_ID, "moose_dirt"), MOOSE_DIRT);
         Registry.register(Registry.BLOCK, new Identifier(MooseMod.MOD_ID, "moose_log"), MOOSE_LOG);

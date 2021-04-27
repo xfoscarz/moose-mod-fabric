@@ -1,6 +1,8 @@
 package puffel_.moose.mod.Registries;
 
 import net.minecraft.entity.EquipmentSlot;
+import java.util.List;
+import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -8,6 +10,10 @@ import puffel_.moose.mod.Item.*;
 import puffel_.moose.mod.MooseMod;
 
 public class ModItems {
+    // Food Components
+    // your a genius
+    public static final FoodComponent MOOSE_ESSENCE_FOOD_COMPONENT = new FoodComponent.Builder().alwaysEdible().snack().hunger(0).build();
+
     // Items
     public static final SwordItem MOOSE_SWORD = new SwordItem(MooseSword.INSTANCE, 10, 1.6f, new Item.Settings().maxCount(1).fireproof());
     public static final ShovelItem MOOSE_SHOVEL = new ShovelItem(MooseShovel.INSTANCE, 7.5f, 0.8f, new Item.Settings().maxCount(1).fireproof());
@@ -37,6 +43,8 @@ public class ModItems {
     public static final Item MOOSE_BOOTS = new ArmorItem(MooseArmor.INSTANCE, EquipmentSlot.FEET, new Item.Settings().maxCount(1).fireproof());
 
     public static void register() {
+        // Register
+        
         // Items
         Registry.register(Registry.ITEM, new Identifier(MooseMod.MOD_ID, "moose_sword"), MOOSE_SWORD);
         Registry.register(Registry.ITEM, new Identifier(MooseMod.MOD_ID, "moose_pickaxe"), MOOSE_PICKAXE);

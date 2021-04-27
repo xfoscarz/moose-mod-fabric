@@ -24,5 +24,7 @@
     "block.mooses.moose_plank": "Moose Plank",
     "block.mooses.moose_stone": "Moose Stone",
 
-    "itemGroup.mooses.general": "Moose Mod"
+    "itemGroup.mooses.general": "Moose Mod",
+
+    "biome.mooses.moose_biome": "Land of The Moose"
 }

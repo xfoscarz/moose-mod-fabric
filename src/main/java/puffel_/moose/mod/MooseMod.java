@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
+import puffel_.moose.mod.Registries.ModBiomes;
 import puffel_.moose.mod.Registries.ModBlocks;
 import puffel_.moose.mod.Registries.ModItems;
 
@@ -34,10 +35,10 @@ public class MooseMod implements ModInitializer {
         // Registration
         ModBlocks.register();
         ModItems.register();
+        ModBiomes.register();
 
         // Events
-        PlayerBlockBreakEvents.AFTER.register((world, player, pos, state, blockEntity) -> {
-        });
+        PlayerBlockBreakEvents.AFTER.register((world, player, pos, state, blockEntity) -> { });
     }
 
     // CustomItemGroup
@@ -70,7 +71,6 @@ public class MooseMod implements ModInitializer {
             stack.add(new ItemStack(ModItems.MOOSE_CHESTPLATE));
             stack.add(new ItemStack(ModItems.MOOSE_LEGGINGS));
             stack.add(new ItemStack(ModItems.MOOSE_BOOTS));
-        })
-        .build();
+        }).build();
 }
 

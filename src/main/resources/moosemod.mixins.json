@@ -4,6 +4,7 @@
     "package": "puffel_.moose.mod.mixin",
     "compatibilityLevel": "JAVA_8",
     "mixins": [
+        "GrassWalkerEnchantMixin"
     ],
     "client": [
         "ExampleMixin"

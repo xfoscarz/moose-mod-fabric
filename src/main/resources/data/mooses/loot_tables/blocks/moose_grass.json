@@ -6,7 +6,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "mooses:moose_grass"
+                    "name": "mooses:moose_dirt"
                 }
             ],
             "conditions": [
