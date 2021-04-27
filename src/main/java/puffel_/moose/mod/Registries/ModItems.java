@@ -8,6 +8,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import puffel_.moose.mod.Item.*;
 import puffel_.moose.mod.MooseMod;
+import net.minecraft.entity.effect.StatusEffectInstance;
 
 public class ModItems {
     // Food Components
@@ -22,7 +23,7 @@ public class ModItems {
     public static final CustomHoeItem MOOSE_HOE = new CustomHoeItem(MooseHoe.INSTANCE, 5, 1f, new Item.Settings().maxCount(1).fireproof());
 
     public static final MooseIngot MOOSE_INGOT = new MooseIngot(new Item.Settings().fireproof());
-    public static final MooseEssence MOOSE_ESSENCE = new MooseEssence(new Item.Settings().maxCount(16));
+    public static final MooseEssence MOOSE_ESSENCE = new MooseEssence(new Item.Settings().maxCount(16).food(MOOSE_ESSENCE_FOOD_COMPONENT));
     public static final FloppyMooseEssence FLOPPY_MOOSE_ESSENCE = new FloppyMooseEssence(new Item.Settings().maxCount(16).fireproof());
     public static final StiffMooseEssence STIFF_MOOSE_ESSENCE = new StiffMooseEssence(new Item.Settings().maxCount(16).fireproof());
     public static final RawMooseEssence RAW_MOOSE_ESSENCE = new RawMooseEssence(new Item.Settings().fireproof());
