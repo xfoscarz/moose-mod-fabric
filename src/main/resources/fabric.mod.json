@@ -16,7 +16,7 @@
     },
 
     "license": "MIT",
-    "icon": "assets/moosemod/icon.png",
+    "icon": "assets/mooses/icon.png",
 
     "environment": "*",
     "entrypoints": {

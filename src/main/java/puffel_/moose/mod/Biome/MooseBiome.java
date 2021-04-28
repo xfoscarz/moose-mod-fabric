@@ -48,6 +48,7 @@ public class MooseBiome {
                 .category(Biome.Category.MUSHROOM) // TODO: Create custom biome category
                 .effects(new BiomeEffects.Builder()
                     .waterColor(0xFF69B4)
+                    .waterFogColor(0xE6A1C3)
                     .fogColor(0x008080)
                     .skyColor(0xFFE5B4)
                     .build())
