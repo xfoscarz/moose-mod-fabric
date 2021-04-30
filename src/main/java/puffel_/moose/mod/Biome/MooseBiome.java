@@ -60,6 +60,7 @@ public class MooseBiome {
                 .depth(0.3f)
                 .scale(0.1f)
                 .temperature(0.5f)
+                .downfall(0.1f)
                 .spawnSettings(spawnSettings.build())
                 .generationSettings(generationSettings.build())
                 .build();
