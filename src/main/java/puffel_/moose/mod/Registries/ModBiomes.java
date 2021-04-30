@@ -16,7 +16,7 @@ public class ModBiomes {
 
     public static void register() {
         // Register
-        Registry.register(BuiltinRegistries.CONFIGURED_SURFACE_BUILDER, new Identifier(MooseMod.MOD_ID, "moose_grass"), MooseBiome.MOOSE_GRASS_SURFACE_BUILDER);
+        Registry.register(BuiltinRegistries.CONFIGURED_SURFACE_BUILDER, new Identifier(MooseMod.MOD_ID, "moose_grass"), MooseBiome.MOOSE_BIOME_SURFACE_BUILDER);
         Registry.register(BuiltinRegistries.BIOME, MOOSE_BIOME_KEY.getValue(), MooseBiome.createMooseBiome());
 
         // Climate Zones

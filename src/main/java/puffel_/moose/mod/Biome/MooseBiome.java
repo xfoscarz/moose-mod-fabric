@@ -1,12 +1,14 @@
 package puffel_.moose.mod.Biome;
 
-import net.minecraft.world.biome.*;
+import net.minecraft.world.biome.Biome;
+import net.minecraft.world.biome.BiomeEffects;
+import net.minecraft.world.biome.GenerationSettings;
+import net.minecraft.world.biome.SpawnSettings;
 import net.minecraft.world.gen.feature.DefaultBiomeFeatures;
 import net.minecraft.world.gen.surfacebuilder.ConfiguredSurfaceBuilder;
 import net.minecraft.world.gen.surfacebuilder.SurfaceBuilder;
 import net.minecraft.world.gen.surfacebuilder.TernarySurfaceConfig;
 import puffel_.moose.mod.Registries.ModBlocks;
-import sun.java2d.Surface;
 
 public class MooseBiome {
     /* Biome Block Layer Settings For Moose Biome
@@ -16,7 +18,7 @@ public class MooseBiome {
      * are not permanent, and may change in the
      * future.
      */
-    public static ConfiguredSurfaceBuilder<TernarySurfaceConfig> MOOSE_GRASS_SURFACE_BUILDER = SurfaceBuilder.DEFAULT
+    public static ConfiguredSurfaceBuilder<TernarySurfaceConfig> MOOSE_BIOME_SURFACE_BUILDER = SurfaceBuilder.DEFAULT
             .withConfig(new TernarySurfaceConfig(
                     ModBlocks.MOOSE_GRASS.getDefaultState(),
                     ModBlocks.MOOSE_DIRT.getDefaultState(),
@@ -34,8 +36,11 @@ public class MooseBiome {
          * TODO: Add custom biome features
          */
         SpawnSettings.Builder spawnSettings = new SpawnSettings.Builder();
+        spawnSettings.playerSpawnFriendly();
 
         GenerationSettings.Builder generationSettings = new GenerationSettings.Builder();
+        generationSettings.surfaceBuilder(MOOSE_BIOME_SURFACE_BUILDER);
+
         DefaultBiomeFeatures.addDefaultUndergroundStructures(generationSettings);
         DefaultBiomeFeatures.addDefaultLakes(generationSettings);
         DefaultBiomeFeatures.addLandCarvers(generationSettings);
