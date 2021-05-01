@@ -21,7 +21,7 @@ public class ModBiomes {
 
         // Climate Zones
 
-        // FIXME Find non-deprecated method of doing this
+        // FIXME Use non-deprecated function in the future
         OverworldBiomes.addContinentalBiome(MOOSE_BIOME_KEY, OverworldClimate.COOL, 2D);
     }
 }
