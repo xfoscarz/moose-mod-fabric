@@ -98,6 +98,7 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 </details>
 
 # Help Us Out
+Have a recommendation? Post it [here](https://github.com/ChezCoder/moose-mod-fabric/issues/new/choose)!
 ```bash
 $ git init moose-mod-master
 $ cd moose-mod-master
