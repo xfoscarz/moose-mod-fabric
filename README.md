@@ -33,7 +33,6 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
     <li>Moose</li>
     <li>Bear (to be decided)</li>
 </details>
-<br>
 <details>
     <summary>Blocks</summary>
     <li>Moose Ore</li>
