@@ -52,7 +52,6 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
     <li>Magical Moose Liquid</li>
     <li>Magical Moose Lava</li>
 </details>
-<br>
 <details>
     <summary>Tools</summary>
     <li>Moose Pickaxe</li>
@@ -61,7 +60,6 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
     <li>Moose Sword</li>
     <li>Moose Hoe</li>
 </details>
-<br>
 <details>
     <summary>Armor</summary>
     <li>Moose Head</li>
@@ -69,7 +67,6 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
     <li>Moose Pants</li>
     <li>Moose Feet</li>
 </details>
-<br>
 <details>
     <summary>Food</summary>
     <li>Moose'd Apple</li>
@@ -77,19 +74,16 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
     <li>Moose Seeds</li>
     <li>Moose Bread</li>
 </details>
-<br>
 <details>
     <summary>Potions</summary>
     <li>Floppy Moose Potion</li>
     <li>Stiff Moose Potion</li>
 </details>
-<br>
 <details>
     <summary>Enchantments</summary>
     <li>Grass Walker</li>
     <li>Antlers</li>
 </details>
-<br>
 <details>
     <summary>Biomes</summary>
     <li>Moose Biome (to be named)</li>
