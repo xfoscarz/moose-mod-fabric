@@ -26,16 +26,16 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 
 <details>
 
-<summary><h1 style="display: inline;">Features</h1></summary>
+<summary>Features</summary>
 
 <details>
-    <summary><h2 style="display: inline;">Mobs</h2></summary>
+    <summary>Mobs</summary>
     <li>Moose</li>
     <li>Bear (to be decided)</li>
 </details>
 <br>
 <details>
-    <summary><h2 style="display: inline;">Blocks</h2></summary>
+    <summary>Blocks</summary>
     <li>Moose Ore</li>
     <li>Moose Block</li>
     <li>Moose Wood</li>
@@ -54,7 +54,7 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 </details>
 <br>
 <details>
-    <summary><h2 style="display: inline;">Tools</h2></summary>
+    <summary>Tools</summary>
     <li>Moose Pickaxe</li>
     <li>Moose Axe</li>
     <li>Moose Shovel</li>
@@ -63,7 +63,7 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 </details>
 <br>
 <details>
-    <summary><h2 style="display: inline;">Armor</h2></summary>
+    <summary>Armor</summary>
     <li>Moose Head</li>
     <li>Moose Shirt</li>
     <li>Moose Pants</li>
@@ -71,7 +71,7 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 </details>
 <br>
 <details>
-    <summary><h2 style="display: inline;">Food</h2></summary>
+    <summary>Food</summary>
     <li>Moose'd Apple</li>
     <li>Enchanted Moose'd Apple</li>
     <li>Moose Seeds</li>
@@ -79,19 +79,19 @@ A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 </details>
 <br>
 <details>
-    <summary><h2 style="display: inline;">Potions</h2></summary>
+    <summary>Potions</summary>
     <li>Floppy Moose Potion</li>
     <li>Stiff Moose Potion</li>
 </details>
 <br>
 <details>
-    <summary><h2 style="display: inline;">Enchantments</h2></summary>
+    <summary>Enchantments</summary>
     <li>Grass Walker</li>
     <li>Antlers</li>
 </details>
 <br>
 <details>
-    <summary><h2 style="display: inline;">Biomes</h2></summary>
+    <summary>Biomes</summary>
     <li>Moose Biome (to be named)</li>
 </details>
 
