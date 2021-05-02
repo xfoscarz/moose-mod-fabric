@@ -26,7 +26,7 @@ public class MooseBiome {
                     ModBlocks.MOOSE_DIRT.getDefaultState(),
                     ModBlocks.MOOSE_STONE.getDefaultState()
             ));
-    public static ConfiguredFeature<?, ?> MOOSE_ORE_FEATURE_OVERWORLD = Feature.ORE
+    public static ConfiguredFeature<?, ?> ORE_MOOSE_OVERWORLD = Feature.ORE
             .configure(new OreFeatureConfig(
                     OreFeatureConfig.Rules.BASE_STONE_OVERWORLD,
                     ModBlocks.MOOSE_ORE.getDefaultState(),
@@ -37,7 +37,7 @@ public class MooseBiome {
                     0,
                     64
             ))).spreadHorizontally().repeat(5);
-    public static ConfiguredFeature<?, ?> MOOSE_ORE_FEATURE_NETHER = Feature.ORE
+    public static ConfiguredFeature<?, ?> ORE_MOOSE_NETHER = Feature.ORE
             .configure(new OreFeatureConfig(
                     OreFeatureConfig.Rules.NETHERRACK,
                     ModBlocks.MOOSE_ORE.getDefaultState(),
