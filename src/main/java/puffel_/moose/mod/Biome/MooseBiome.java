@@ -4,7 +4,9 @@ import net.minecraft.world.biome.Biome;
 import net.minecraft.world.biome.BiomeEffects;
 import net.minecraft.world.biome.GenerationSettings;
 import net.minecraft.world.biome.SpawnSettings;
-import net.minecraft.world.gen.feature.DefaultBiomeFeatures;
+import net.minecraft.world.gen.decorator.Decorator;
+import net.minecraft.world.gen.decorator.RangeDecoratorConfig;
+import net.minecraft.world.gen.feature.*;
 import net.minecraft.world.gen.surfacebuilder.ConfiguredSurfaceBuilder;
 import net.minecraft.world.gen.surfacebuilder.SurfaceBuilder;
 import net.minecraft.world.gen.surfacebuilder.TernarySurfaceConfig;
@@ -24,6 +26,30 @@ public class MooseBiome {
                     ModBlocks.MOOSE_DIRT.getDefaultState(),
                     ModBlocks.MOOSE_STONE.getDefaultState()
             ));
+    public static ConfiguredFeature<?, ?> MOOSE_ORE_FEATURE_OVERWORLD = Feature.ORE
+            .configure(new OreFeatureConfig(
+                    OreFeatureConfig.Rules.BASE_STONE_OVERWORLD,
+                    ModBlocks.MOOSE_ORE.getDefaultState(),
+                    3
+            ))
+            .decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(
+                    0,
+                    0,
+                    64
+            ))).spreadHorizontally().repeat(5);
+    public static ConfiguredFeature<?, ?> MOOSE_ORE_FEATURE_NETHER = Feature.ORE
+            .configure(new OreFeatureConfig(
+                    OreFeatureConfig.Rules.NETHERRACK,
+                    ModBlocks.MOOSE_ORE.getDefaultState(),
+                    4
+            ))
+            .decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(
+                    0,
+                    0,
+                    64
+            )))
+            .spreadHorizontally()
+            .repeat(15);
 
     public static Biome createMooseBiome() {
         /* Biome Settings For Moose Biome

@@ -17,6 +17,7 @@ public class MooseMod implements ModInitializer {
             "Puffel_",
             "JustSticky"
     };
+
     public static final String MOD_ID = "mooses";
     public static final String VERSION = "PRE-Snapshot 21w17a";
 
