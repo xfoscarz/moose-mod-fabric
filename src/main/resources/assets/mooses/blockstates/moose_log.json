@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "mooses/block/moose_log" }
+        "": { "model": "mooses:block/moose_log" }
     }
 }

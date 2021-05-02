@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "mooses/block/moose_grass" }
+        "": { "model": "mooses:block/moose_grass" }
     }
 }
