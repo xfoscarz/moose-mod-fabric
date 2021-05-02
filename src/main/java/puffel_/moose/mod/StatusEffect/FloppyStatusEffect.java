@@ -17,7 +17,7 @@ public class FloppyStatusEffect extends StatusEffect {
     @Override
     public void applyUpdateEffect(LivingEntity entity, int amplifier) {
         if (entity instanceof PlayerEntity) {
-        
+            super.applyUpdateEffect(entity, amplifier);
         }
     }
 
