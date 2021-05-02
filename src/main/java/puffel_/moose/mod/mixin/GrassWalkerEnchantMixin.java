@@ -15,7 +15,9 @@ import puffel_.moose.mod.Registries.ModBlocks;
 /* GrassWalker Enchant
  *
  * Player will receive the the floppy status effect
- * as they walk on Grass or Moose Grass
+ * as they walk on Grass or Moose Grass.
+ *
+ * Functionality temporary
  */
 
 @Mixin(ClientPlayerEntity.class)
