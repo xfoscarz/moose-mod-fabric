@@ -19,7 +19,7 @@ public class MooseMod implements ModInitializer {
     };
 
     public static final String MOD_ID = "mooses";
-    public static final String VERSION = "PRE-Snapshot 21w17a";
+    public static final String VERSION = "PRE-Snapshot 21w18a";
 
     @Override
     public void onInitialize() {
