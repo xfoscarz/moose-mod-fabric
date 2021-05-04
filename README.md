@@ -1,3 +1,5 @@
+**\*The version mentioned in the title are the MOD VERSION, not the MINECRAFT VERSION\***
+
 ![Build](https://img.shields.io/github/workflow/status/ChezCoder/moose-mod-fabric/gradle_build)
 ![Total Downloads](https://img.shields.io/github/downloads/chezcoder/moose-mod-fabric/total)
 ![LICENSE](https://img.shields.io/github/license/ChezCoder/moose-mod-fabric)
@@ -18,6 +20,9 @@
 A Fabric mod made for [Legitimoose](https://www.youtube.com/c/Legitimoose)!
 
 **We are still in *PRE-RELEASE*.**
+
+Tested Minecraft Versions:
+- 1.16.x
 
 # Installation
 **This is a Fabric Mod, this won't work in forge**
