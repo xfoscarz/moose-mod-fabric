@@ -3,6 +3,7 @@ package puffel_.moose.mod.Registries;
 import net.minecraft.entity.EquipmentSlot;
 import java.util.List;
 import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -12,8 +13,9 @@ import net.minecraft.entity.effect.StatusEffectInstance;
 
 public class ModItems {
     // Food Components
-    // your a genius
-    public static final FoodComponent MOOSE_ESSENCE_FOOD_COMPONENT = new FoodComponent.Builder().alwaysEdible().snack().hunger(0).build();
+    public static final FoodComponent MOOSE_ESSENCE_FOOD_COMPONENT = (new FoodComponent.Builder()).hunger(6).saturationModifier(0.5f).statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 300, 2), 1f).meat().snack().build();
+    public static final FoodComponent FLOPPY_MOOSE_ESSENCE_FOOD_COMPONENT = (new FoodComponent.Builder()).hunger(4).saturationModifier(0.7f).statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 300, 1), 1f).statusEffect(new StatusEffectInstance(ModStatusEffects.FLOPPY_STATUS_EFFECT, 300, 1), 1f).meat().snack().build();
+    public static final FoodComponent STIFF_MOOSE_ESSENCE_FOOD_COMPONENT = (new FoodComponent.Builder()).hunger(4).saturationModifier(0.7f).statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 300, 1), 1f).statusEffect(new StatusEffectInstance(ModStatusEffects.STIFF_STATUS_EFFECT, 300, 1), 1f).meat().snack().build();
 
     // Items
     public static final SwordItem MOOSE_SWORD = new SwordItem(MooseSword.INSTANCE, 10, 1.6f, new Item.Settings().maxCount(1).fireproof());
@@ -24,8 +26,8 @@ public class ModItems {
 
     public static final MooseIngot MOOSE_INGOT = new MooseIngot(new Item.Settings().fireproof());
     public static final MooseEssence MOOSE_ESSENCE = new MooseEssence(new Item.Settings().maxCount(16).food(MOOSE_ESSENCE_FOOD_COMPONENT));
-    public static final FloppyMooseEssence FLOPPY_MOOSE_ESSENCE = new FloppyMooseEssence(new Item.Settings().maxCount(16).fireproof());
-    public static final StiffMooseEssence STIFF_MOOSE_ESSENCE = new StiffMooseEssence(new Item.Settings().maxCount(16).fireproof());
+    public static final FloppyMooseEssence FLOPPY_MOOSE_ESSENCE = new FloppyMooseEssence(new Item.Settings().maxCount(16).fireproof().food(FLOPPY_MOOSE_ESSENCE_FOOD_COMPONENT));
+    public static final StiffMooseEssence STIFF_MOOSE_ESSENCE = new StiffMooseEssence(new Item.Settings().maxCount(16).fireproof().food(STIFF_MOOSE_ESSENCE_FOOD_COMPONENT));
     public static final RawMooseEssence RAW_MOOSE_ESSENCE = new RawMooseEssence(new Item.Settings().fireproof());
 
     // BlockItems

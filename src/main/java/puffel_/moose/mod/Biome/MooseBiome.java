@@ -26,9 +26,10 @@ public class MooseBiome {
     public static ConfiguredSurfaceBuilder<TernarySurfaceConfig> MOOSE_BIOME_SURFACE_BUILDER = SurfaceBuilder.DEFAULT
             .withConfig(new TernarySurfaceConfig(
                     ModBlocks.MOOSE_GRASS.getDefaultState(),
-                    ModBlocks.MOOSE_DIRT.getDefaultState(),
+                    ModBlocks.MOOSE_STONE.getDefaultState(),
                     ModBlocks.MOOSE_STONE.getDefaultState()
             ));
+
     public static ConfiguredFeature<?, ?> ORE_MOOSE_OVERWORLD = Feature.ORE
             .configure(new OreFeatureConfig(
                     OreFeatureConfig.Rules.BASE_STONE_OVERWORLD,

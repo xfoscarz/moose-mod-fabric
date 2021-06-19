@@ -26,5 +26,8 @@
 
     "itemGroup.mooses.general": "Moose Mod",
 
+    "enchantment.mooses.antlers": "Antlers",
+    "enchant.mooses.grass_walker": "Grass Walker",
+
     "biome.mooses.moose_biome": "Land of The Moose"
 }

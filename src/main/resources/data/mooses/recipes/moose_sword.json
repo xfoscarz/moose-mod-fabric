@@ -2,7 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "#",
-        "#",
+        "d",
         "|"
     ],
     "key": {
@@ -11,6 +11,9 @@
         },
         "|": {
             "item": "minecraft:stick"
+        },
+	"d": {
+            "item": "minecraft:diamond"
         }
     },
     "result": {
